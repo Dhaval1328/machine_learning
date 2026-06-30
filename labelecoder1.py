@@ -7,7 +7,7 @@ categories = ['red', 'blue', 'green', 'yellow', 'red', 'blue', 'green']
 label_encoder = LabelEncoder()
 
 # Fit and transform the categorical data
-encoded_data = label_encoder.fit_transform(categories)
+encoded_data = label_encoder.fit_transform(categories )
 
 # Displaying the original and encoded data
 print("Original categories:", categories)

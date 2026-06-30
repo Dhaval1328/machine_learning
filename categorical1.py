@@ -1,7 +1,7 @@
 # Feature and Class label mapping 
 import pandas as pd
 import numpy as np
-df=pd.read_csv('D:/4066/tempbook.csv')
+df=pd.read_csv('D:/4066/tempbook.csv ')
 print(df)
 
 #feature mapping with numerical value

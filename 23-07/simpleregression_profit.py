@@ -15,7 +15,6 @@ print(y)
 
 X_train, X_test, y_train, y_test = train_test_split(x, y, test_size = 0.2, random_state = 0)
 
-# Creating and fitting the model
 model = LinearRegression()
 model.fit(X_train,y_train)
 
@@ -32,6 +31,6 @@ y_pred = model.predict(X_test)
 # FIXED: Changed 'salary' to 'profit'
 print("predicted profit is:",y_pred)
 
-# Model evaluation 
+# Model   evaluation 
 print('Mean Absolute Error:', metrics.mean_absolute_error(y_test, y_pred))
 print('Mean Squared Error:', metrics.mean_squared_error(y_test, y_pred))

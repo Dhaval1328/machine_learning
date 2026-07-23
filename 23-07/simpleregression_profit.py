@@ -5,6 +5,7 @@ from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 from sklearn import metrics
 
+
 data=pd.read_csv("D:/4066/23-07/linearregressiondataset.csv")
 
 x=data.iloc[:,0:1]

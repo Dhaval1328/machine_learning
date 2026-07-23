@@ -9,9 +9,11 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 # Load dataset
 iris = load_iris()
 
+
 # Features and target
 X = iris.data
 y = iris.target
+
 
 # Display first five records
 df = pd.DataFrame(X, columns=iris.feature_names)
@@ -36,6 +38,8 @@ print("\nClassification Report:")
 print(classification_report(y_test, y_pred, target_names=iris.target_names))
 
 # Example flower measurements:
+
+
 # Sepal Length, Sepal Width, Petal Length, Petal Width
 sample = [[5.1, 3.5, 1.4, 0.2]]
 
